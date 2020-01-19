@@ -17,6 +17,25 @@ export default class Detail extends Component {
                     </div>
                 </div>
                 <div className={style.content}>
+                    <div className={style.cource_info}>
+                        <div className={style.cource_title}></div>
+                        <div className={style.info_box}>
+                            <div className={style.info_number}>
+                                TFT154
+                            </div>
+                            <div className={style.info_place}>
+                                <span className="iconfont icondingwei"></span>
+                                福雷德C座教学点<span className="iconfont iconditu"></span>
+                            </div>
+                            <div className={style.info_time}>
+                                <span className="iconfont iconshijian"></span>
+                                2020/3/3 至 2020/5/5 2020/3/3 至 2020/5/5 2020/3/3 至 2020/5/5
+                                2020/3/3 至 2020/5/5 2020/3/3 至 2020/5/5 2020/3/3 至 2020/5/5 2020/3
+                                /3 至 2020/5/5 2020/3/3 至 2020/5/5 2020/3/3 至 2020/5/5 2020/3/3 至 2020/5/5
+                            </div>
+                            <div className={`flex_wrap ${style['info_down']}`}></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         )
