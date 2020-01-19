@@ -1,0 +1,49 @@
+.support_list {
+    margin-top:10px;
+    background:#fff;
+}
+.support_top {
+    height:50px;
+    line-height: 50px;
+    color:rgba(100, 177, 138, 1);
+    text-align:center;
+}
+.support_top img {
+    width:15px;
+    height:15px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right:8px;
+}
+.support_box {
+    border-top:solid 1px #f2f2f2;
+    padding-top:8px;
+    width:100%;
+    height:120px;
+}
+.support_box .support_left {
+    width:100px;
+    height:120px;
+    text-align: center;
+}
+.support_left img {
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+}
+.support_box .support_right {
+    width:calc(100% - 100px);
+}
+.support_right .support_title {
+    font-size:14px;
+    color:rgba(100, 177, 138, 1);
+}
+.support_introduce, .support_subject {
+    font-size:8px;
+}
+.support_price {
+    color:#bd0020;
+}
+.support_price span{
+    font-size:3px;
+}

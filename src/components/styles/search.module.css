@@ -1,0 +1,22 @@
+
+.wrap {
+    height:30px;
+    border-radius: 15px;
+    background:#fff;
+    display:inline-block;
+    vertical-align: middle;
+    padding:0 6px;
+    line-height: 30px;
+}
+.wrap span {
+    vertical-align: middle;
+    color:#999;
+}
+.wrap input {
+
+    height:25px;
+    width:calc(100% - 40px);
+    border:none;
+    outline: medium;
+    vertical-align: middle;
+}

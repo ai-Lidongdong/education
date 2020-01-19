@@ -1,0 +1,118 @@
+body {
+    background:#f2f2f2;
+    color:#333;
+}
+.wrap {
+    padding:50px 0;
+}
+.person {
+    background:rgba(100, 177, 138, 1);
+    color:#fff;
+    padding:0 8px;
+}
+.person_left, .person_right {
+    width:50%;
+}
+.person_right {
+    text-align:right;
+}
+.person .person_right img {
+    width:40px;
+    height:40px;
+    border-radius: 20px;
+}
+
+.banner_box {
+    width:100%;
+    height:200px;
+}
+.banner_box button {
+    display:none !important;
+}
+.banner {
+    height:200px;
+}
+.banner_img {
+    width:100%;
+    height:100px;
+}
+.class_list {
+    width:100%;
+    padding:0 10px;
+    background:#fff;
+}
+.class_box {
+    width:20%;
+    height:60px;
+    text-align: center;
+    margin-top:10px;
+}
+.class_box img{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+}
+.book_list {
+    background:#fff;
+    margin-top:10px;
+    padding:0 8px;
+}
+.book_box {
+    width:33.3%;
+    height:50px;
+    padding:10px 0;
+    color:#999;
+}
+.book_box img {
+    width:30px;
+    height:30px;
+    border-radius: 15px;
+    vertical-align: middle;
+}
+.book_text {
+    display:inline-block;
+    vertical-align: middle;
+    height:30px;
+    margin-left:8px;
+}
+.book_text_top {
+    color:#d6a146;
+    line-height: 15px;
+}
+.book_text_down {
+    font-size:5px;
+    line-height: 15px;
+}
+.recommend_wrap, .support_list, .travel_list {
+    margin-top:10px;
+    background:#fff;
+}
+.recommend_top, .enroll_top {
+    height:50px;
+    line-height: 50px;
+    color:rgba(100, 177, 138, 1);
+    text-align:center;
+}
+.recommend_list {
+    display:flex;
+    overflow-x:scroll;
+}
+.enroll_wrap {
+    background:#fff;
+}
+.footer {
+    width:100%;
+    height:50px;
+    position:fixed;bottom:0;left:0;
+    background:#fff;
+    box-shadow: 10px 10px 5px #888888;
+}
+.footer .tab_box {
+    flex:1;
+    text-align: center;
+    font-size:6px;
+    padding:4px 0;
+}
+.tab_box span {
+    font-size:18px;
+}

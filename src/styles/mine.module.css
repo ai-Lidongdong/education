@@ -1,0 +1,81 @@
+body{
+    background:#c3c3c3;
+}
+.header {
+    width:100%;
+    background:rgba(100, 177, 138, 1);
+    color:#fff;
+}
+.header .title {
+    height:50px;
+    line-height: 50px;
+    text-align: center;
+}
+.header .person_info {
+    text-align: center;
+    font-size:24px;
+    font-weight: 600;
+}
+.header .person_info img {
+    width:80px;
+    height:80px;
+    display:block;
+    margin:0 auto;
+    border-radius: 50%;
+}
+.header .binding {
+    height:50px;
+    line-height: 50px;
+    padding:0 10px;
+
+    background:rgb(37, 137, 87, 0.7);
+}
+.order_wrap {
+    margin-top:10px;
+    background:#fff;
+}
+.order_top {
+    height:40px;
+    line-height: 40px;
+    border-bottom:solid 1px #c3c3c3;
+}
+.order_list {
+    height:60px;
+    padding:8px 0;
+}
+.order_list .order_box {
+    flex:1;
+    text-align: center;
+    color:rgba(100, 177, 138, 1);
+    font-weight: 500;
+}
+.order_box span {
+    font-size:20px;
+    font-weight: 500;
+}
+.tool_box {
+    background:#fff;
+    text-align: center;
+    border:solid 1px #c3c3c3;
+    padding:15px 0;
+    color:#333;
+}
+.tool_box .icon_box {
+    margin:15px 0 12px;
+}
+.tool_box p span {
+    font-size:30px;
+    color:rgba(100, 177, 138, 1);
+}
+.footer {
+    font-size:8px;
+    padding:8px;
+    text-indent: 20px;
+    color:#999;
+}
+.footer_first {
+    color:#666;
+}
+.footer a {
+    color:rgba(100, 177, 138, 1);
+}

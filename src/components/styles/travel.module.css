@@ -1,0 +1,37 @@
+
+.travel_list {
+    background:#fff;
+    margin-top:10px;
+}
+.travel_top {
+    background:#fff;
+    height:50px;
+    line-height: 50px;
+    color:rgba(100, 177, 138, 1);
+    text-align:center;
+}
+.travel_top img{
+    width:15px;
+    height:15px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right:8px;
+}
+.travel_box {
+    margin-top:8px;
+}
+.travel_box .travel_pic {
+    width:100%;
+    height:200px;
+    display:block;
+} 
+.travel_down  {
+    padding:4px 8px;
+}
+.travel_price {
+    color:#999;
+    margin-top:4px;
+}
+.travel_price .now_price {
+    color:#bd0020;
+}
